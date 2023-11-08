@@ -54,15 +54,15 @@ func chapterThree() {
         powah += newRSoldier.power
     }
     
-    var survivorGroupBravo: Platooon = Platooon(soldiers: humanSoliders, platoonName: "Survivor Group bravo")
-    var robotPlatoonBravo: Platooon = Platooon(soldiers: robotSoldiers, platoonName: "Robot Platoon bravo")
+    let survivorGroupBravo: Platooon = Platooon(soldiers: humanSoliders, platoonName: "Survivor Group bravo")
+    let robotPlatoonBravo: Platooon = Platooon(soldiers: robotSoldiers, platoonName: "Robot Platoon bravo")
     
     func revolution(){
         var huNames = survivorGroupBravo.soldiers
         var robNames = robotPlatoonBravo.soldiers
-        //        print(huNames)
-        //        print(robNames)
-        
+               
+        print("A squad of brave humans named:\n \(humName) with a combined value of: \(hpowah) Power.");print("Lead the battle against the three powerful units:\n \(robName) that have a combined value of: \(powah) Power.")
+   
         if hpowah > powah{
             print("The Humans win this battle by \(hpowah - powah) power!")
         }else{
