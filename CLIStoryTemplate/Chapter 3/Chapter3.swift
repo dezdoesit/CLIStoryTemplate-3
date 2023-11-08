@@ -61,7 +61,7 @@ func chapterThree() {
         var huNames = survivorGroupBravo.soldiers
         var robNames = robotPlatoonBravo.soldiers
                
-        print("A squad of brave humans named:\n \(humName) with a combined value of: \(hpowah) Power.");print("Lead the battle against the three powerful units:\n \(robName) that have a combined value of: \(powah) Power.")
+        print("A squad of brave humans named:\n \(humName) with a combined value of: \(hpowah) Power.") ;print("Lead the battle against the three powerful units:\n \(robName) that have a combined value of: \(powah) Power.")
    
         if hpowah > powah{
             print("The Humans win this battle by \(hpowah - powah) power!")
